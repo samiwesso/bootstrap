@@ -1,0 +1,96 @@
+.navbar-brand img {
+    width: 50px;
+    height: 100%;
+}
+
+.brand-name {
+    padding-top: 30px;
+}
+
+#overview-a {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(179deg, rgba(248,249,250,1) 20%, rgba(189,188,184,0.6531206232492996) 100%), 
+                url(../images/background/pexels-photo-887751.jpeg);
+    background-size: cover;
+}
+
+#overview-a .wave {
+    position: absolute;
+    width: 100%;
+    height: 142px;
+    bottom:0;
+    left:0;
+    background: url(../images/background/wave.png);
+    z-index: 5;
+}
+
+.main-content {
+    margin-top: 50px;
+}
+
+.main-content .card {
+    border-radius: 10px
+}
+
+#overview_slider img {
+    height: 70vh;
+    width: 100%;
+    z-index: -1;
+}
+
+#overview-a .gradient {
+    position: absolute;
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient(179deg, rgba(248,249,250,1) 15%, rgba(189,188,184,0) 100%);
+    z-index: 2;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    color:#000;
+    z-index: 3
+}
+
+
+#features-a {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    background: linear-gradient(179deg, rgba(248,249,250,1) 20%, rgba(189,188,184,0.6531206232492996) 100%), 
+                url(../images/background/pexels-photo-887751.jpeg);
+    background-size: cover;
+}
+
+#features-a .gradient {
+    position: absolute;
+    width: 100%;
+    height: 20vh;
+    background: linear-gradient(180deg, rgba(248,249,250,1) 0%, rgba(189,188,184,0.6531206232492996) 100%);
+    z-index: 2;
+}
+
+#features-a img {
+    height: 20vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    font-family: "fontawesome";
+    content: "\f054";
+    font-size: 8pt;
+ }
+
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #main-content .card {
+        border-radius: 5px
+    }
+
+}
