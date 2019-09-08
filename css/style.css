@@ -2,6 +2,7 @@
     width: 50px;
     height: 100%;
 }
+.container{background:#fff; border-radius: 10px; }
 
 .brand-name {
     padding-top: 30px;
@@ -53,41 +54,12 @@
     z-index: 3
 }
 
-
-#features-a {
-    position: relative;
-    width: 100%;
-    height: 20vh;
-    background: linear-gradient(179deg, rgba(248,249,250,1) 20%, rgba(189,188,184,0.6531206232492996) 100%), 
-                url(../images/background/pexels-photo-887751.jpeg);
-    background-size: cover;
-}
-
-#features-a .gradient {
-    position: absolute;
-    width: 100%;
-    height: 20vh;
-    background: linear-gradient(180deg, rgba(248,249,250,1) 0%, rgba(189,188,184,0.6531206232492996) 100%);
-    z-index: 2;
-}
-
-#features-a img {
-    height: 20vh;
-    width: 100%;
-    z-index: -1;
-}
-
-.breadcrumb-item + .breadcrumb-item::before {
+/* .breadcrumb-item + .breadcrumb-item::before {
     font-family: "fontawesome";
     content: "\f054";
     font-size: 8pt;
- }
+ } */
 
-
-
-
-
-/* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     #main-content .card {
         border-radius: 5px
@@ -95,27 +67,8 @@
 
 }
 
+/*profile */ 
 
 
 
-
-/* login side */
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #17a2b8;
-  height: 100vh;
-}
-#login .container #login-row #login-column #login-box {
-  margin-top: 120px;
-  max-width: 600px;
-  height: 320px;
-  border: 1px solid #9C9C9C;
-  background-color: #EAEAEA;
-}
-#login .container #login-row #login-column #login-box #login-form {
-  padding: 20px;
-}
-#login .container #login-row #login-column #login-box #login-form #register-link {
-  margin-top: -85px;
-}
+    /* register */
