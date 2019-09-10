@@ -1,3 +1,6 @@
+body {
+    background: #f8f9fa;
+}
 .navbar-brand img {
     width: 50px;
     height: 100%;
@@ -72,3 +75,97 @@
 
 
     /* register */
+    .register {
+        background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    }
+
+    .register-left {
+        text-align: center;
+        color: #fff;
+    }
+
+    .register-left input {
+        border: none;
+        border-radius: 1.5rem;
+        background: #f8f9fa;
+        font-weight: bold;
+        color: #383d41;
+        cursor: pointer;
+    }
+
+    .register-right {
+        background: #f8f9fa;
+        border-top-left-radius: 10% 50%;
+        border-bottom-left-radius: 10% 50%;
+    }
+
+    .register-left img {
+        -webkit-animation: mover 2s infinite alternate;
+        animation: mover 1s infinite alternate;
+    }
+
+    @-webkit-keyframes mover {
+        0% {
+            transform: translateY(0);
+        }
+
+        100% {
+            transform: translateY(-20px);
+        }
+    }
+
+    @keyframes mover {
+        0% {
+            transform: translateY(0);
+        }
+
+        100% {
+            transform: translateY(-20px);
+        }
+    }
+
+   
+
+    .btnRegister {
+        float: right;
+        border: none;
+        border-radius: 1.5rem;
+        background: #0062cc;
+        color: #fff;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .nav-tabs {
+        border: none;
+        background: #0062cc;
+        border-radius: 1.5rem;
+        float: right;
+    }
+
+    .nav-tabs .nav-link {
+        font-weight: 600;
+        color: #fff;
+        border-top-right-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+    }
+
+    .nav-tabs .nav-link.active {
+        color: #0062cc;
+        border: 2px solid #0062cc;
+        border-top-left-radius: 1.5rem;
+        border-bottom-left-radius: 1.5rem;
+    }
+ /*login */ 
+ .login-block{
+    background: -webkit-linear-gradient(to bottom, #00c6ff, #0062cc);  
+    background: linear-gradient(to bottom, #00c6ff, #0062cc); 
+    float:left;
+    width:100%;
+    }
+    .banner-sec{background:url(https://static.pexels.com/photos/33972/pexels-photo.jpg)  no-repeat left bottom; background-size:cover; min-height:500px; border-radius: 0 10px 10px 0; padding:0;}
+    .carousel-inner{border-radius:0 10px 10px 0;}
+    .carousel-caption{text-align:left; left:5%;}
+    .login-sec{position:relative;}
+     .copy-text{position:absolute; width:80%; bottom:20px; font-size:13px; text-align:center;}
+    .banner-text{width:70%; position:absolute; bottom:40px; padding-left:20px;}
