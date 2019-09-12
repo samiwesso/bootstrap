@@ -7,98 +7,45 @@ body {
 }
 .container{background:#fff; border-radius: 10px; }
 
-.brand-name {
-    padding-top: 30px;
+/* profile */
+.main-secction {
+    box-shadow: 10px 10px 10px;
 }
-
-#overview-a {
+.image-section img {
+    width: 100%;
+    max-height: 250px;
     position: relative;
-    width: 100%;
-    height: 70vh;
-    background: linear-gradient(179deg, rgba(248,249,250,1) 20%, rgba(189,188,184,0.6531206232492996) 100%), 
-                url(../images/background/pexels-photo-887751.jpeg);
-    background-size: cover;
 }
 
-#overview-a .wave {
+.user-image {
     position: absolute;
-    width: 100%;
-    height: 142px;
-    bottom:0;
-    left:0;
-    background: url(../images/background/wave.png);
-    z-index: 5;
+    margin-top: -50px;
 }
 
-.main-content {
-    margin-top: 50px;
+.user-image img {
+    min-width: 300px;
+    min-height: 300px;
 }
 
-.main-content .card {
-    border-radius: 10px
+.user-profil-part {
+    padding-bottom: 30px;
+    background-color: #FAFAFA;
 }
-
-#overview_slider img {
-    height: 70vh;
-    width: 100%;
-    z-index: -1;
-}
-
-#overview-a .gradient {
-    position: absolute;
-    width: 100%;
-    height: 70vh;
-    background: linear-gradient(179deg, rgba(248,249,250,1) 15%, rgba(189,188,184,0) 100%);
-    z-index: 2;
-}
-
-.carousel-control-prev, .carousel-control-next {
-    color:#000;
-    z-index: 3
-}
-
-/* .breadcrumb-item + .breadcrumb-item::before {
-    font-family: "fontawesome";
-    content: "\f054";
-    font-size: 8pt;
- } */
-
-@media (min-width: 992px) {
-    #main-content .card {
-        border-radius: 5px
-    }
-
-}
-
-/*profile */ 
-
-
-
 
     /* register */
-    .register {
+    .register  {
         background: -webkit-linear-gradient(left, #3931af, #00c6ff);
     }
-
-    .register-left {
-        text-align: center;
-        color: #fff;
-    }
-
-    .register-left input {
-        border: none;
-        border-radius: 1.5rem;
-        background: #f8f9fa;
-        font-weight: bold;
-        color: #383d41;
-        cursor: pointer;
-    }
-
     .register-right {
         background: #f8f9fa;
         border-top-left-radius: 10% 50%;
         border-bottom-left-radius: 10% 50%;
+        border-top-right-radius: 10% 50%;
+        border-bottom-right-radius: 10% 50%;
+        min-height: 500px;
+        max-height: 800px;
     }
+   
 
     .register-left img {
         -webkit-animation: mover 2s infinite alternate;
@@ -124,39 +71,6 @@ body {
             transform: translateY(-20px);
         }
     }
-
-   
-
-    .btnRegister {
-        float: right;
-        border: none;
-        border-radius: 1.5rem;
-        background: #0062cc;
-        color: #fff;
-        font-weight: 600;
-        cursor: pointer;
-    }
-
-    .nav-tabs {
-        border: none;
-        background: #0062cc;
-        border-radius: 1.5rem;
-        float: right;
-    }
-
-    .nav-tabs .nav-link {
-        font-weight: 600;
-        color: #fff;
-        border-top-right-radius: 1.5rem;
-        border-bottom-right-radius: 1.5rem;
-    }
-
-    .nav-tabs .nav-link.active {
-        color: #0062cc;
-        border: 2px solid #0062cc;
-        border-top-left-radius: 1.5rem;
-        border-bottom-left-radius: 1.5rem;
-    }
  /*login */ 
  .login-block{
     background: -webkit-linear-gradient(to bottom, #00c6ff, #0062cc);  
@@ -164,9 +78,15 @@ body {
     float:left;
     width:100%;
     }
-    .banner-sec{background:url(https://static.pexels.com/photos/33972/pexels-photo.jpg)  no-repeat left bottom; background-size:cover; min-height:500px; border-radius: 0 10px 10px 0; padding:0;}
-    .carousel-inner{border-radius:0 10px 10px 0;}
-    .carousel-caption{text-align:left; left:5%;}
-    .login-sec{position:relative;}
-     .copy-text{position:absolute; width:80%; bottom:20px; font-size:13px; text-align:center;}
-    .banner-text{width:70%; position:absolute; bottom:40px; padding-left:20px;}
+    .banner-sec
+        {background:url(https://static.pexels.com/photos/33972/pexels-photo.jpg)  no-repeat left bottom; background-size:cover; min-height:500px; border-radius: 0 10px 10px 0; padding:0;}
+    .carousel-inner
+        {border-radius:0 10px 10px 0;}
+    .carousel-caption
+        {text-align:left; left:5%;}
+    .login-sec
+        {position:relative;}
+     .copy-text
+        {position:absolute; width:80%; bottom:20px; font-size:13px; text-align:center;}
+    .banner-text
+        {width:70%; position:absolute; bottom:40px; padding-left:20px;}
