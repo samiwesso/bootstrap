@@ -16,19 +16,13 @@ body {
     max-height: 250px;
     position: relative;
 }
-
-.user-image {
-    position: absolute;
-    margin-top: -50px;
-}
-
 .user-image img {
     min-width: 300px;
     min-height: 300px;
 }
 
 .user-profil-part {
-    padding-bottom: 30px;
+  
     background-color: #FAFAFA;
 }
 
@@ -45,7 +39,9 @@ body {
         min-height: 500px;
         max-height: 800px;
     }
-   
+   .register-heading {
+       text-align: center
+   }
 
     .register-left img {
         -webkit-animation: mover 2s infinite alternate;
