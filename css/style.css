@@ -74,8 +74,7 @@ body {
     float:left;
     width:100%;
     }
-    .banner-sec
-        {background:url(https://static.pexels.com/photos/33972/pexels-photo.jpg)  no-repeat left bottom; background-size:cover; min-height:500px; border-radius: 0 10px 10px 0; padding:0;}
+ 
     .carousel-inner
         {border-radius:0 10px 10px 0;}
     .carousel-caption
