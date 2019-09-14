@@ -5,6 +5,10 @@ body {
     width: 50px;
     height: 100%;
 }
+#navbar {
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    background: linear-gradient(to bottom, #00c6ff, #0062cc); 
+}
 .container{background:#fff; border-radius: 10px; }
 
 /* profile */
@@ -29,6 +33,7 @@ body {
     /* register*/
     .register  {
         background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+        background: linear-gradient(to bottom, #00c6ff, #0062cc); 
     }
     .register-right {
         background: #f8f9fa;
